@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Occasions" max_length="40" name="x_58872_needit_occasions" type="collection">
+        <element label="Employee" max_length="40" name="employee" type="string"/>
+        <element label="Occasion Date" max_length="40" name="occasion_date" type="glide_date_time"/>
+        <element label="Special occasion" max_length="40" name="special_occasion" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Employee email" mandatory="true" max_length="40" name="u_employee_email" type="string"/>
+    </element>
+</database>
